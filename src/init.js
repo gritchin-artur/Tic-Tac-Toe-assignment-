@@ -1,5 +1,12 @@
-// import your listeners(events)
+import { clickEvent } from './events/clickEvent.js';
+import { loadEvent } from './events/loadEvent.js';
+import { mouseHover } from './events/mouseHover.js';
+import { resetClick } from './events/resetClick.js';
 
-import sumListener from './events/sumListener.js';
+loadEvent();
 
-sumListener();
+mouseHover();
+
+clickEvent();
+
+resetClick();
